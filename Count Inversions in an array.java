@@ -41,7 +41,7 @@ public class Rough {
 			}
 			else if(left[i]>right[j]){
 				arr[k++]=right[j++];
-				count = count+mid-i+1;
+				count = count+(mid+1)-(l+i);
 			}
 		}
 		if(i==left_length){
