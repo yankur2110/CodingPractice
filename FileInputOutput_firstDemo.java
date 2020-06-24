@@ -7,6 +7,6 @@ public class FileInputOutput_firstDemo {
 		FileInputStream fos = new FileInputStream("myfile.txt");
 		int data = fos.read();
 		fos.close();
-		System.out.println(data);
+		System.out.println(data); //output would be 97 because read() reads only single byte at a time that is a in our case which is converted to int.
 	}
 }
