@@ -31,7 +31,7 @@ class Singleton1 implements Serializable{
 	}
 	
 	
-	Object readResolve() { 
+	Object readResolve() { //preventing from new object to be created while readObject.
         return singleton; 
   }
 	
