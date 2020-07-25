@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 class Test{
 	@SuppressWarnings("unused")
 	private void testMethod(){
-		System.out.println("I am inside private test method.");
+		System.out.println("I am inside private test method. ");
 	}
 }
 
