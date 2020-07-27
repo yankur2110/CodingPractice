@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 class TaskForCachedPool implements Runnable{
 	@Override
-	public void run() {
+	public void run(){
 		System.out.println("ThreadName is "+Thread.currentThread().getName());
 	}
 }
